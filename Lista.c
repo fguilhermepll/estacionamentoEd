@@ -18,7 +18,7 @@ Lista* criaPilhaGaragem(int qntdPilha, int vagas){
     Carro* pilha = NULL;
     Carro* auxNode = NULL;
     Lista* list = criaLista(qntdPilha);
-    for(int i = 0; i < qntdPilha; i++){  // fazer "3" pilhas, apenas as heads para serem armazenadas em Lista
+    for(int i = 0; i < qntdPilha; i++){  // fazer "i" pilhas, apenas as heads para serem armazenadas em Lista
         pilha = criaCarro();
         list->head[i] = pilha;
     }
