@@ -21,4 +21,4 @@ int simulaInsere(Lista* estacionamento, deque* rua, int qntdPilhas, int vagas);
 
 Lista* copiaGaragem(Lista* estacionamento, int qntdPilhas, int vagas);
 
-#endif /* !FILE_FOO_SEEN */
+#endif 
