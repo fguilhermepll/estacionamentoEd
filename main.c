@@ -3,27 +3,27 @@
 #include "Lista.h"
 #include "Auxliares.h"
 /*
-->=============COMENT¡RIOS EXPLICANDO O TRABALHO E DOCUMENTA«√O===========<-
+->==============COMENT√ÅRIOS EXPLICANDO O TRABALHO E DOCUMENTA√á√ÉO================<-
 
 deque.h/c:
-    ImplementaÁ„o da Deque, que È a estrutura usada para definir a "RUA" do trabalho
+    Implementa√ß√£o da Deque, que √© a estrutura usada para definir a "RUA" do trabalho
 Lista.h/c
-    ImplementaÁ„o da Lista Encadeada, usada para composiÁ„o do estacionamento, a lista guarda o HEAD de cada pilha de carros.
+    Implementa√ß√£o da Lista Encadeada, usada para composi√ß√£o do estacionamento, a lista guarda o HEAD de cada pilha de carros.
 Pilha.h/c
-    DefiniÁ„o da estrutura de dados Pilha, onde cada elemento È um "CARRO".
+    Defini√ß√£o da estrutura de dados Pilha, onde cada elemento √© um "CARRO".
 Auxliares.h/c
-    Todas as funÁıes requeridas do trabalho, "INSER«√O", "REMO«√O", "IMPRESS√O DA GARAGEM" e "IMPRESS√O DA RUA".
-    E algumas funÁıes extras pra auxiliar essas principais.
+    Todas as fun√ß√µes requeridas do trabalho, "INSER√á√ÉO", "REMO√á√ÉO", "IMPRESS√ÉO DA GARAGEM" e "IMPRESS√ÉO DA RUA".
+    E algumas fun√ß√µes extras pra auxiliar essas principais.
 
-HEURÕSTICA:
-    InserÁ„o:
-        Insere os carros por ordem de chegada, o primeiro a chegar entrar· na primeira fila, o segundo a chegar na segunda,
+HEUR√çSTICA:
+    Inser√ß√£o:
+        Insere os carros por ordem de chegada, o primeiro a chegar entrar√° na primeira fila, o segundo a chegar na segunda,
         e assim por diante.
 
-        O algoritmo dar· preferÍncia para as pilhas com menos carros.
-    RemoÁ„o:
-        Remove os carros pela placa fornecida pelo usuario, caso tenha algum carro atr·s do escolhido
-        ter· uma manobra dos mesmos atÈ que o carro desejado possa sair do estacionamento.
+        O algoritmo dar√° prefer√™ncia para as pilhas com menos carros.
+    Remo√ß√£o:
+        Remove os carros pela placa fornecida pelo usuario, caso tenha algum carro atr√°s do escolhido
+        ter√° uma manobra dos mesmos at√© que o carro desejado possa sair do estacionamento.
 
 
 
